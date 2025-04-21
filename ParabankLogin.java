@@ -6,12 +6,9 @@ import org.openqa.selenium.WebDriver;
 public class ParabankLogin {
     WebDriver driver;
 
-    // Locators
     By usernameField = By.name("username");
     By passwordField = By.name("password");
     By loginButton = By.cssSelector("input.button");
-
-    // Constructor
     public ParabankLogin(WebDriver driver) {
         this.driver = driver;
     }
